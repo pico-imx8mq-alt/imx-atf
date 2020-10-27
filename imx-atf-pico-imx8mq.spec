@@ -1,6 +1,6 @@
 Name: imx-atf-imx8mq
 Version: 4.14.98
-Release: alt1
+Release: alt2
 
 Summary: ARM Trusted Firmware for TechNexion IMX8MQ platform
 License: BSD
@@ -40,5 +40,8 @@ install -pm0644 -D build/imx8mq/release/bl31.bin %buildroot%_datadir/atf/imx8mq/
 %_datadir/atf
 
 %changelog
+* Tue Oct 27 2020 Pavel Nakonechnyi <zorg@altlinux.org> 4.14.98-alt2
+- updated to 413e93e1 commit of the upstream
+
 * Sun Jul 07 2019 Pavel Nakonechnyi <zorg@altlinux.org> 4.14.98-alt1
 - initial build of ARM Trusted Firmware backed for TechNexion IMX8MQ platform
